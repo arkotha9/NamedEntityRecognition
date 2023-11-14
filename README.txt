@@ -1,5 +1,9 @@
 Python version used: Python 3.11.6
 
+- I performed Named Entity Recognition on general and glove word embeddings. As embeddings as generally case insensitive, I added three additional features for each token embedding(isTitle, isUpper,isLower) to make my BiLSTM model and NER case-sensitive. 
+- I achieved f1 scores of around 80% for my generic 'conll2023' word embeddings and f1 scores of around 90% for my GloVe embeddings. 
+
+
 The zip file is organized as:
 .
 ├── HW4_Ananya_Kotha.ipynb
